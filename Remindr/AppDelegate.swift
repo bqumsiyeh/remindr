@@ -9,14 +9,50 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
 
-
-
+    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2)
+    let popover = NSPopover()
+    
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        
+        NSUserNotificationCenter.defaultUserNotificationCenter().delegate = self
+        
+        if let button = statusItem.button {
+            button.image = NSImage(named: "StatusBarButtonImage")
+            button.action = Selector("togglePopover:")
+        }
+        
+        let storyBoard = NSStoryboard(name: "Main", bundle: nil) as NSStoryboard
+        
+        let viewController:NSViewController = storyBoard.instantiateControllerWithIdentifier("ViewController") as! NSViewController;
+
+        popover.contentViewController = viewController;
     }
 
+    func showPopover(sender: AnyObject?) {
+        if let button = statusItem.button {
+            popover.showRelativeToRect(button.bounds, ofView: button, preferredEdge: NSRectEdge.MinY)
+        }
+    }
+    
+    func closePopover(sender: AnyObject?) {
+        popover.performClose(sender)
+    }
+    
+    func togglePopover(sender: AnyObject?) {
+        if popover.shown {
+            closePopover(sender)
+        } else {
+            showPopover(sender)
+        }
+    }
+    
+    func userNotificationCenter(center: NSUserNotificationCenter, shouldPresentNotification notification: NSUserNotification) -> Bool {
+        return true
+    }
+    
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
