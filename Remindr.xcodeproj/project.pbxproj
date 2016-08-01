@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6823CD1D4F2E660017582E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6823CC1D4F2E660017582E /* AppDelegate.swift */; };
+		BF6823CF1D4F2E660017582E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6823CE1D4F2E660017582E /* ViewController.swift */; };
+		BF6823D21D4F2E660017582E /* Remindr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF6823D01D4F2E660017582E /* Remindr.xcdatamodeld */; };
+		BF6823D41D4F2E660017582E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6823D31D4F2E660017582E /* Assets.xcassets */; };
+		BF6823D71D4F2E660017582E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6823D51D4F2E660017582E /* Main.storyboard */; };
+		BF6823E21D4F2E660017582E /* RemindrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6823E11D4F2E660017582E /* RemindrTests.swift */; };
+		BF6823ED1D4F2E660017582E /* RemindrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6823EC1D4F2E660017582E /* RemindrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF6823DE1D4F2E660017582E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6823C11D4F2E660017582E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6823C81D4F2E660017582E;
+			remoteInfo = Remindr;
+		};
+		BF6823E91D4F2E660017582E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6823C11D4F2E660017582E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6823C81D4F2E660017582E;
+			remoteInfo = Remindr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF6823C91D4F2E660017582E /* Remindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remindr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6823CC1D4F2E660017582E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF6823CE1D4F2E660017582E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF6823D11D4F2E660017582E /* Remindr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remindr.xcdatamodel; sourceTree = "<group>"; };
+		BF6823D31D4F2E660017582E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF6823D61D4F2E660017582E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF6823D81D4F2E660017582E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6823DD1D4F2E660017582E /* RemindrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6823E11D4F2E660017582E /* RemindrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindrTests.swift; sourceTree = "<group>"; };
+		BF6823E31D4F2E660017582E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6823E81D4F2E660017582E /* RemindrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6823EC1D4F2E660017582E /* RemindrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindrUITests.swift; sourceTree = "<group>"; };
+		BF6823EE1D4F2E660017582E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF6823C61D4F2E660017582E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823DA1D4F2E660017582E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823E51D4F2E660017582E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6823C01D4F2E660017582E = {
+			isa = PBXGroup;
+			children = (
+				BF6823CB1D4F2E660017582E /* Remindr */,
+				BF6823E01D4F2E660017582E /* RemindrTests */,
+				BF6823EB1D4F2E660017582E /* RemindrUITests */,
+				BF6823CA1D4F2E660017582E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF6823CA1D4F2E660017582E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF6823C91D4F2E660017582E /* Remindr.app */,
+				BF6823DD1D4F2E660017582E /* RemindrTests.xctest */,
+				BF6823E81D4F2E660017582E /* RemindrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6823CB1D4F2E660017582E /* Remindr */ = {
+			isa = PBXGroup;
+			children = (
+				BF6823CC1D4F2E660017582E /* AppDelegate.swift */,
+				BF6823CE1D4F2E660017582E /* ViewController.swift */,
+				BF6823D31D4F2E660017582E /* Assets.xcassets */,
+				BF6823D51D4F2E660017582E /* Main.storyboard */,
+				BF6823D81D4F2E660017582E /* Info.plist */,
+				BF6823D01D4F2E660017582E /* Remindr.xcdatamodeld */,
+			);
+			path = Remindr;
+			sourceTree = "<group>";
+		};
+		BF6823E01D4F2E660017582E /* RemindrTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6823E11D4F2E660017582E /* RemindrTests.swift */,
+				BF6823E31D4F2E660017582E /* Info.plist */,
+			);
+			path = RemindrTests;
+			sourceTree = "<group>";
+		};
+		BF6823EB1D4F2E660017582E /* RemindrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6823EC1D4F2E660017582E /* RemindrUITests.swift */,
+				BF6823EE1D4F2E660017582E /* Info.plist */,
+			);
+			path = RemindrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF6823C81D4F2E660017582E /* Remindr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6823F11D4F2E660017582E /* Build configuration list for PBXNativeTarget "Remindr" */;
+			buildPhases = (
+				BF6823C51D4F2E660017582E /* Sources */,
+				BF6823C61D4F2E660017582E /* Frameworks */,
+				BF6823C71D4F2E660017582E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remindr;
+			productName = Remindr;
+			productReference = BF6823C91D4F2E660017582E /* Remindr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF6823DC1D4F2E660017582E /* RemindrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6823F41D4F2E660017582E /* Build configuration list for PBXNativeTarget "RemindrTests" */;
+			buildPhases = (
+				BF6823D91D4F2E660017582E /* Sources */,
+				BF6823DA1D4F2E660017582E /* Frameworks */,
+				BF6823DB1D4F2E660017582E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6823DF1D4F2E660017582E /* PBXTargetDependency */,
+			);
+			name = RemindrTests;
+			productName = RemindrTests;
+			productReference = BF6823DD1D4F2E660017582E /* RemindrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF6823E71D4F2E660017582E /* RemindrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6823F71D4F2E660017582E /* Build configuration list for PBXNativeTarget "RemindrUITests" */;
+			buildPhases = (
+				BF6823E41D4F2E660017582E /* Sources */,
+				BF6823E51D4F2E660017582E /* Frameworks */,
+				BF6823E61D4F2E660017582E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6823EA1D4F2E660017582E /* PBXTargetDependency */,
+			);
+			name = RemindrUITests;
+			productName = RemindrUITests;
+			productReference = BF6823E81D4F2E660017582E /* RemindrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF6823C11D4F2E660017582E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Basel Qumsiyeh";
+				TargetAttributes = {
+					BF6823C81D4F2E660017582E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BF6823DC1D4F2E660017582E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF6823C81D4F2E660017582E;
+					};
+					BF6823E71D4F2E660017582E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF6823C81D4F2E660017582E;
+					};
+				};
+			};
+			buildConfigurationList = BF6823C41D4F2E660017582E /* Build configuration list for PBXProject "Remindr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF6823C01D4F2E660017582E;
+			productRefGroup = BF6823CA1D4F2E660017582E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF6823C81D4F2E660017582E /* Remindr */,
+				BF6823DC1D4F2E660017582E /* RemindrTests */,
+				BF6823E71D4F2E660017582E /* RemindrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF6823C71D4F2E660017582E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6823D41D4F2E660017582E /* Assets.xcassets in Resources */,
+				BF6823D71D4F2E660017582E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823DB1D4F2E660017582E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823E61D4F2E660017582E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF6823C51D4F2E660017582E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6823D21D4F2E660017582E /* Remindr.xcdatamodeld in Sources */,
+				BF6823CF1D4F2E660017582E /* ViewController.swift in Sources */,
+				BF6823CD1D4F2E660017582E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823D91D4F2E660017582E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6823E21D4F2E660017582E /* RemindrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6823E41D4F2E660017582E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6823ED1D4F2E660017582E /* RemindrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF6823DF1D4F2E660017582E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6823C81D4F2E660017582E /* Remindr */;
+			targetProxy = BF6823DE1D4F2E660017582E /* PBXContainerItemProxy */;
+		};
+		BF6823EA1D4F2E660017582E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6823C81D4F2E660017582E /* Remindr */;
+			targetProxy = BF6823E91D4F2E660017582E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF6823D51D4F2E660017582E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF6823D61D4F2E660017582E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF6823EF1D4F2E660017582E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF6823F01D4F2E660017582E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF6823F21D4F2E660017582E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Remindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.Remindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF6823F31D4F2E660017582E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Remindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.Remindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF6823F51D4F2E660017582E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemindrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.RemindrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remindr.app/Contents/MacOS/Remindr";
+			};
+			name = Debug;
+		};
+		BF6823F61D4F2E660017582E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemindrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.RemindrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remindr.app/Contents/MacOS/Remindr";
+			};
+			name = Release;
+		};
+		BF6823F81D4F2E660017582E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemindrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.RemindrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Remindr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF6823F91D4F2E660017582E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RemindrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biq.RemindrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Remindr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF6823C41D4F2E660017582E /* Build configuration list for PBXProject "Remindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6823EF1D4F2E660017582E /* Debug */,
+				BF6823F01D4F2E660017582E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6823F11D4F2E660017582E /* Build configuration list for PBXNativeTarget "Remindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6823F21D4F2E660017582E /* Debug */,
+				BF6823F31D4F2E660017582E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF6823F41D4F2E660017582E /* Build configuration list for PBXNativeTarget "RemindrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6823F51D4F2E660017582E /* Debug */,
+				BF6823F61D4F2E660017582E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF6823F71D4F2E660017582E /* Build configuration list for PBXNativeTarget "RemindrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6823F81D4F2E660017582E /* Debug */,
+				BF6823F91D4F2E660017582E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF6823D01D4F2E660017582E /* Remindr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF6823D11D4F2E660017582E /* Remindr.xcdatamodel */,
+			);
+			currentVersion = BF6823D11D4F2E660017582E /* Remindr.xcdatamodel */;
+			path = Remindr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF6823C11D4F2E660017582E /* Project object */;
+}
